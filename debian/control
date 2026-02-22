@@ -15,8 +15,10 @@ Homepage: https://github.com/Sonic-DE
 Package: sonicde
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends},
-         lsb-base,
+Depends: sonic-win,
+         sonic-workspace,
+         silver-sddm,
+         silver-theme,
 Description: SonicDE, the Sonic Desktop Environment
  The community-driven Sonic Desktop Environment aims to preserve and improve
  the X11-specific aspects of KDE. It currently consists of the customized
