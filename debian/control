@@ -1,0 +1,24 @@
+Source: sonicde
+Section: kde
+Priority: optional
+Maintainer: NexusSfan <nexussfan@duck.com>
+Rules-Requires-Root: no
+Standards-Version: 4.6.1
+Build-Depends:
+ debhelper-compat (= 13),
+ po-debconf,
+ asciidoc,
+Vcs-Git: https://github.com/sonicde-debian/sonicde.git
+Vcs-Browser: https://github.com/sonicde-debian/sonicde
+Homepage: https://github.com/Sonic-DE
+
+Package: sonicde
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         lsb-base,
+Description: SonicDE, the Sonic Desktop Environment
+ The community-driven Sonic Desktop Environment aims to preserve and improve
+ the X11-specific aspects of KDE. It currently consists of the customized
+ KWin/X11 sonic-win, Plasma Workspace components, the Silver theme, and
+ some support libraries.
