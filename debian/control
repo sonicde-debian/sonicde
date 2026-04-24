@@ -19,7 +19,9 @@ Depends: sonic-win,
          sonic-workspace,
          sddm-theme-silver,
          kde-style-silver,
-         plasma-desktop,
+         sonic-system-info,
+         sonic-screen-library,
+         sonic-desktop-interface,
 Description: SonicDE, the Sonic Desktop Environment
  The community-driven Sonic Desktop Environment aims to preserve and improve
  the X11-specific aspects of KDE. It currently consists of the customized
