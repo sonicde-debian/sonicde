@@ -17,12 +17,14 @@ Architecture: all
 Multi-Arch: foreign
 Depends: sonic-win,
          sonic-workspace,
+         sonic-workspace-dev,
          sddm-theme-silver,
          kde-style-silver,
          sonic-system-info,
          sonic-screen-library,
          sonic-desktop-interface,
          kde-config-sonic-screenlocker,
+         libsonicglobalaccelmodel6,
 Description: SonicDE, the Sonic Desktop Environment
  The community-driven Sonic Desktop Environment aims to preserve and improve
  the X11-specific aspects of KDE. It currently consists of the customized
