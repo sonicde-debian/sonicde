@@ -1,3 +1,9 @@
+sonicde (1.3) unstable; urgency=medium
+
+  * Add sonic-screen
+
+ -- NexusSfan <nexussfan@duck.com>  Sat, 02 May 2026 09:33:10 -0800
+
 sonicde (1.2) unstable; urgency=medium
 
   * Fix broken dep
